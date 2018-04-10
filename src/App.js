@@ -22,6 +22,7 @@ class App extends Component {
             setClicked={this.setClick}
             id={match.id}
             key={match.id}
+            name={match.name}
             image={match.image}
           />
         ))}

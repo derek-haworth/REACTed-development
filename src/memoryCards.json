@@ -1,61 +1,73 @@
 [
   {
     "id": 1,
+    "name": "Annyong",
     "image": "./assets/images/annyong.jpg",
     "clicked": false
   },
   {
     "id": 2,
+    "name": "Barry",
     "image": "./assets/images/barry.jpg",
     "clicked": false
   },
   {
     "id": 3,
+    "name": "Buster",
     "image": "./assets/images/buster.jpg",
     "clicked": false
   },
   {
     "id": 4,
+    "name": "George Michael",
     "image": "./assets/images/george-michael.jpg",
     "clicked": false
   },
   {
     "id": 5,
+    "name": "George",
     "image": "./assets/images/george.jpg",
     "clicked": false
   },
   {
     "id": 6,
+    "name": "Gob",
     "image": "./assets/images/gob.jpg",
     "clicked": false
   },
   {
     "id": 7,
+    "name": "Lindsay",
     "image": "./assets/images/lindsay.jpg",
     "clicked": false
   },
   {
     "id": 8,
+    "name": "Lucille",
     "image": "./assets/images/lucille.jpg",
     "clicked": false
   },
   {
     "id": 9,
+    "name": "Maeby",
     "image": "./assets/images/maeby.jpg",
     "clicked": false
   },
   {
     "id": 10,
+    "name": "Michael",
     "image": "./assets/images/michael.jpg",
     "clicked": false
   },
   {
     "id": 11,
+    "name": "Oscar",
     "image": "./assets/images/oscar.jpg",
     "clicked": false
   },
   {
     "id": 12,
+    "name": "Tobias",
     "image": "./assets/images/tobias.jpg",
     "clicked": false
   }
