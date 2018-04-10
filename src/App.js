@@ -2,7 +2,8 @@
 import React, { Component } from "react";
 import MemoryCard from "./components/MemoryCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
+import CardContainer from "./components/CardContainer";
+import Navbar from "./components/Navbar";
 import matches from "./memoryCards.json";
 import "./App.css";
 
@@ -26,6 +27,7 @@ class App extends Component {
     if (clickMatch[0].clicked) {
       correct = 0;
 
+      // set all clicked images to false
       for (let i = 0; i < matches.length; i++) {
         matches[i].clicked = false;
       }
@@ -70,26 +72,26 @@ class App extends Component {
   }
 
   render() {
-    return (
+    return ( 
       <Wrapper>
-        <Title>React Memory Game</Title>
-        
-        <h3 className="scoreSummary">
-            Correct Guesses: {this.state.correct} 
-            <br />
-            Best Score: {this.state.bestScore} 
-        </h3>
+        <Navbar>
+          <ul>
+            <li>Click Game</li>
+            <li className="scoreSummary">Correct Guesses: {this.state.correct} | Best Score: {this.state.bestScore}</li>
+          </ul>
+        </Navbar>
 
-        {this.state.matches.map(match => (
-          <MemoryCard 
-            setClicked={this.setClicked}
-            id={match.id}
-            key={match.id}
-            name={match.name}
-            image={match.image}
-          />
-        ))}
-
+        <CardContainer>
+          {this.state.matches.map(match => (
+            <MemoryCard 
+              setClicked={this.setClicked}
+              id={match.id}
+              key={match.id}
+              name={match.name}
+              image={match.image}
+            />
+          ))}
+        </CardContainer>
       </Wrapper>
     );
   }
