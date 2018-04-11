@@ -45,3 +45,10 @@
 .cards-container {
     padding-top: 100px;
 }
+
+footer {
+    padding: 20px 0;
+    color: rgba(255,255,255,0.75);
+    background-color: #24292e;
+}
+

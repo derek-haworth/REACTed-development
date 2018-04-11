@@ -4,6 +4,7 @@ import MemoryCard from "./components/MemoryCard";
 import Wrapper from "./components/Wrapper";
 import CardContainer from "./components/CardContainer";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import matches from "./memoryCards.json";
 import "./App.css";
 
@@ -103,6 +104,7 @@ class App extends Component {
             />
           ))}
         </CardContainer>
+        <Footer/>
       </Wrapper>
     );
   }
