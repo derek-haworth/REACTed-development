@@ -52,3 +52,6 @@ footer {
     background-color: #24292e;
 }
 
+.display-linebreak {
+    white-space: pre-line;
+  }

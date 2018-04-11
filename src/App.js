@@ -64,7 +64,7 @@ class App extends Component {
 
       clickMatch[0].clicked = true;
       correct = 0;
-      message = "You win, Try again? Or are you a chicken? Caca Caca Caw";
+      message = "You win, Try again? \n Or are you a chicken? Caca Caca Caw";
 
       for (let i = 0 ; i < matches.length ; i++) {
         matches[i].clicked = false;
@@ -89,7 +89,7 @@ class App extends Component {
             <li className="title">
               <a href="/">Reacted <span className="block">Development</span></a>
             </li>
-            <li className="status-message">{this.state.message}</li>
+            <li className="status-message display-linebreak">{this.state.message}</li>
             <li className="score-summary">Correct Guesses: {this.state.correct} <span className="block"> Best Score: {this.state.bestScore}</span></li>
           </ul>
         </Navbar>
