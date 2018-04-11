@@ -13,6 +13,7 @@ Click on any of the character cards. They will be reshuffled and you'll have to 
 
 
 ## Tools and Tech
++ Based on [create-react-app](https://github.com/facebookincubator/create-react-app)
 + [React](https://reactjs.org/)
 + JavaScript
 + [Node.js](https://nodejs.org/en/)
