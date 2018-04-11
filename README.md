@@ -5,7 +5,7 @@
 Play the Game [HERE](https://reacted-development.herokuapp.com/)
 
 <p align="center">
-<img src="assets/images/game-screengrap.jpg" width="425"/>
+<img src="public/assets/images/game-screengrab.png"/>
 </p>
 
 ## How can I play the game?
