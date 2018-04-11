@@ -5,6 +5,7 @@ import Wrapper from "./components/Wrapper";
 import CardContainer from "./components/CardContainer";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 import matches from "./memoryCards.json";
 import "./App.css";
 
@@ -92,8 +93,8 @@ class App extends Component {
             <li className="score-summary">Correct Guesses: {this.state.correct} <span className="block"> Best Score: {this.state.bestScore}</span></li>
           </ul>
         </Navbar>
-
         <CardContainer>
+        <Header/>
           {this.state.matches.map(match => (
             <MemoryCard 
               setClicked={this.setClicked}
