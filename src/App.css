@@ -1,6 +1,47 @@
 
-.scoreSummary{
+.navbar {
+    background: #f37020;
+    min-height: 70px;
+    position: fixed;
     width: 100%;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .35);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .35);
+    color: #fff;
+    font-size: 25px;
+    z-index: 99;
+    white-space: nowrap;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 5px 0;
+    width: 30%;
     text-align: center;
-    margin-bottom: 20px;	
+    vertical-align: middle;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
+
+.block {
+    display: block;
+}
+
+.title span{
+    color: black;
+}
+
+.navbar li.score-summary {
+    text-align: right;
+}
+.cards-container {
+    padding-top: 100px;
 }
