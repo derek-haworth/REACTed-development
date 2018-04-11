@@ -2,7 +2,7 @@
 
 "You've made a huge mistake"...by not playing this fun Arrested Development themed memory game. 
 
-Play the Game [HERE](https://reacted-development.herokuapp.com/)
+### Play the Game [HERE](https://reacted-development.herokuapp.com/)
 
 <p align="center">
 <img src="public/assets/images/game-screengrab.png"/>
