@@ -64,7 +64,7 @@ class App extends Component {
 
       clickMatch[0].clicked = true;
       correct = 0;
-      message = "You win, Try again?";
+      message = "You win, Try again? Or are you a chicken? Caca Caca Caw";
 
       for (let i = 0 ; i < matches.length ; i++) {
         matches[i].clicked = false;
